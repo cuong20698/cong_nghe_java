@@ -1,12 +1,13 @@
+<%@ page pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<meta charset="utf-8">
+<title>java server page</title>
 <style>
 	div{
 		width: 300px;
-		height:200px;
+		height:250px;
 		margin:100px auto;
 		background-color: #218B9E;
 		color: white;
@@ -58,10 +59,14 @@
 				</tr>
 				<tr>
 					<td></td>
+					<td class="checkbox"><input type="checkbox" name="chkluu">Remember password!</input></td>
+				</tr>
+				<tr>
+					<td></td>
 					<td><button>Login</button></td>
 				</tr>
 				<tr>
-					<td colspan="2" style="color:red;"><lable id="lblThongbao">${ thongbao }</lable></td>
+					<td colspan="2" style="color:red;"><label>${ Thongbao }</label></td>
 				</tr>
 			</table>
 		</div>

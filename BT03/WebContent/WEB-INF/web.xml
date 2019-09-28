@@ -5,10 +5,18 @@
   	<servlet-name>login</servlet-name>
   	<servlet-class>Dangnhap.login</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>welcome</servlet-name>
+  	<servlet-class>Dangnhap.Welcome</servlet-class>
+  </servlet>
   
   <servlet-mapping>
   	<servlet-name>login</servlet-name>
   	<url-pattern>/servlet1</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+  	<servlet-name>welcome</servlet-name>
+  	<url-pattern>/servlet2</url-pattern>
   </servlet-mapping>
   
   <welcome-file-list>
